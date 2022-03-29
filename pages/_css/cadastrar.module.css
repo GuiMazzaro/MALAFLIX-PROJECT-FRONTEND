@@ -1,0 +1,95 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../_images/MalaFlix.png");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    background-color: #f5f3f4;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 5px;
+}
+
+.label{
+    padding-top: 15px;
+    padding-bottom: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 30px;
+
+}
+
+.container_data{
+    padding-bottom: 10px;
+    flex-direction: column;
+    display: flex;
+}
+
+.container_btns{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding-top: 10px;
+}
+
+.input{
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    border: 0.5px gray solid;
+}
+
+.btnSend{
+    width: 80px;
+    height: 30px;
+    font-weight: bold;
+    background-color: #40916c;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.btnSend:hover{
+    background-color: #081c15;
+    cursor: pointer;
+}
+
+.btnReset{
+    width: 80px;
+    height: 30px;
+    font-weight: bold;
+    background-color: #ffaa00;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.btnReset:hover{
+    background-color: #ff7b00;
+    cursor: pointer;
+}
+
+.container_create{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../_images/fundo_seguinte.png");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
